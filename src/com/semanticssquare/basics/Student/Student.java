@@ -1,10 +1,11 @@
 public class Student {
-    int id = 1000;
-    int nextId = id + 1;
+    int id;
 
     void printId() {
-        System.out.println(id);
-        System.out.println(nextId);
+        id = 1000;
+        int nextId = id + 1;
+        System.out.println("id: " + id);
+        System.out.println("nextId: " + nextId);
     }
 
     public static void main(String[] args) {
